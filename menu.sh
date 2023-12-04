@@ -22,10 +22,11 @@ verifnb () {
 
 menu () {
     echo "Entrez le nombre correspondant à l'énigme que vous souhaitez lancer :"
-    echo "Enigme 1"
-    echo "Enigme 2"
-    echo "Enigme 3"
-    echo "Enigme 4"
+    echo "1 - Enigme 1"
+    echo "2 - Enigme 2"
+    echo "3 - Enigme 3"
+    echo "4 - Enigme 4"
+    echo "9 - Quitter"
 }
 
 echo "Bienvenue à l'IUT informatique du limousin !"
