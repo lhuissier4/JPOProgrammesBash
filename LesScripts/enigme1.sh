@@ -1,6 +1,6 @@
 #!/bin/bash
 
-reponse=""
+
 
 echo "En quel langage à été écrit ce script ?"
 
@@ -8,12 +8,17 @@ echo "En quel langage à été écrit ce script ?"
 echo "   Python             C++"
 echo "   Bash               Java"
 
+reponse=""
+ 
 
-while [ "$reponse" != "Bash" ]
+
+
+while ([ "$reponse" != "Bash" ] && [ "$reponse" != "BASH" ] && [ "$reponse" != "bash" ]) 
+do
     echo 'Réponse : '
     read reponse
-do
-    if ([ $reponse == "Bash" ] || [ $reponse == "BASH" ] || [ $reponse == "bash" ]) 
+
+    if ([ "$reponse" == "Bash" ] || [ "$reponse" == "BASH" ] || [ "$reponse" == "bash" ]) 
         then
             echo "Correct ! La lettre secrete est : I"
     else
