@@ -26,15 +26,15 @@ menu () {
     echo "2 - Enigme 2"
     echo "3 - Enigme 3"
     echo "4 - Enigme 4"
-    echo "9 - Quitter"
+    echo "5 - Quitter"
 }
 
 echo "Bienvenue à l'IUT informatique du limousin !"
 echo "Votre objectif est de résoudre les petites énigmes suivantes afin de découvrir le mot caché !"
 
-
+delais=4
 nbSaisie="0"
-while [ "$nbSaisie" != "9" ]
+while [ "$nbSaisie" != "5" ]
 do 
     menu
     read nbSaisie
@@ -43,7 +43,31 @@ do
         echo "Erreur, vous devez saisir un nombre valide"
         nbSaisie="0"
     else
-        menu
+        if [ $nbSaisie == "1" ]
+            then
+                LesScripts/enigme1.sh
+                sleep $delais
+                clear
+        fi
+        if [ $nbSaisie == "2" ]
+            then
+                LesScripts/enigme2.sh
+                sleep $delais
+                clear
+        fi
+        if [ $nbSaisie == "3" ]
+            then
+                LesScripts/enigme3.sh
+                sleep $delais
+                clear
+        fi
+        if [ $nbSaisie == "4" ]
+            then
+                LesScripts/enigme4.sh
+                sleep $delais
+                clear
+        fi
+        
     fi
 done
 
