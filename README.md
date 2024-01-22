@@ -12,3 +12,6 @@ Il suffit ensuite de choisir l'énigme que vous souhaitez lancer.
 2 réponse numéro 2
 3 réponse 2: Inverser une chaine de caractères puis l'afficher
 4 Un code
+
+## Utilisation du menu
+Lorsque le menu propose de choisir une énigme, entrer le numéro de l'énigme correspondant, ne pas entrer l'intitulé complet de l'énigme. Conseiller aux utilisateurs de ne pas quitter le menu, ce qui évite à l'utilisateur suivant d'avoir à relancer le programme et de perdre du temps.
