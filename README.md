@@ -7,4 +7,8 @@ La commande pour modifier les droits est "chmod a+x nomDuFichier".
 Pour le lancer, mettez vous dans le répertoire et entrez dans le shell "./menu.sh".\
 Il suffit ensuite de choisir l'énigme que vous souhaitez lancer.
 
-## Les énigmes
+## Les réponses aux énigmes
+1 Bash
+2 réponse numéro 2
+3 réponse 2: Inverser une chaine de caractères puis l'afficher
+4 Un code
